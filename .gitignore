@@ -1,0 +1,33 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller builds
+build/
+build-*/
+dist/
+dist-*/
+*.spec.bak
+
+# Release archives and executables
+*.zip
+*.exe
+
+# Temporary screenshots and recognition output
+screenshot.png
+board.png
+board_coordinates.json
+detected_turn.txt
+recognized_position.txt
+ChessAnalyzer_timing.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local development tools
+dev_tools/
